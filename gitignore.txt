@@ -1,0 +1,47 @@
+# Streamlit & Secrets
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Environment Variables & API Keys
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python Environment & Caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook & Checkpoints
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs & Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Database & Local Logs
+*.sqlite3
+*.db
+*.log
