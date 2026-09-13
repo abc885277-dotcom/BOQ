@@ -73,7 +73,7 @@ with st.sidebar:
         "Groq Model:",
         [
             "qwen-2.5-coder-32b",
-            "llama-3.3-70b-versatile",
+            "openai/gpt-oss-120b",
             "deepseek-r1-distill-llama-70b"
         ],
         help="Select the open-weight LLM for parsing property scope and generating BOQ lines."
